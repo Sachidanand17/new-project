@@ -1,0 +1,83 @@
+.aPart {
+    background-color: hsl(260, 100%, 71%);
+    margin: 0;
+}
+
+.bPart {
+    background-color: hsl(267, 100%, 71%);
+    margin: 0;
+}
+
+.cPart {
+    background-color: hsl(334, 100%, 71%);
+    margin: 0;
+}
+
+.dPart {
+    background-color: hsl(222, 100%, 68%);
+    margin: 0;
+}
+
+.ePart {
+    background-color: hsl(53, 100%, 68%);
+    margin: 0;
+}
+
+.fPart {
+    background-color: hsl(158, 100%, 68%);
+    margin: 0;
+}
+
+.gPart {
+    background-color: hsl(117, 100%, 68%);
+    margin: 0;
+}
+
+.hPart {
+    background-color: hsl(0, 100%, 68%);
+    margin: 0;
+}
+
+
+/*********************TEXT SEC ****************/
+.a1 {
+
+  color: white;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  left: 310px;
+  top: 240px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/**********************NAVBAR***********************/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 1800px;
+}
+
+li {
+  float: left;
+  overflow: hidden;
+  padding-left: 22px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover a {
+  color: black;
+}

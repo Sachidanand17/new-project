@@ -1,0 +1,57 @@
+body {
+  background-color: hsl(0, 0%, 77%);
+  margin: 0;
+}
+
+
+/************************TXT SEC**********************/
+table {
+  width: 800px;
+  height: 90px;
+  font-size: 18px;
+  color: black
+}
+
+div {
+  width: 1200px;
+  position: relative;
+  top: 200px;
+  left: 100px;
+  color: hsl(0, 0%, 10%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: black;
+}
+
+p{
+  font-size: 20px;
+}
+/**********************NAVBAR*******************/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 1800px;
+}
+
+li {
+  float: left;
+  overflow: hidden;
+  padding-left: 22px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover a {
+  color: black;
+}

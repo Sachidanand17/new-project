@@ -1,0 +1,135 @@
+body {
+  height: 1000px;
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+div {
+  width: 200px;
+  height: 1000px;
+}
+
+.ColorSection {
+  height: 1000px;
+  width: 1600px;
+}
+
+.a {
+  position: relative;
+  right: 7px;
+  background-color: hsl(260, 100%, 71%);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+.b {
+  position: relative;
+  left: 193px;
+  bottom: 1000px;
+  background-color: hsl(267, 100%, 71%);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+.c {
+  position: relative;
+  left: 393px;
+  bottom: 2000px;
+  background-color: hsl(334, 100%, 71%);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+.d {
+  position: relative;
+  left: 593px;
+  bottom: 3000px;
+  background-color:  hsl(222, 100%, 68%);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+.e {
+  position: relative;
+  left: 793px;
+  bottom: 4000px;
+  background-color: hsl(53, 100%, 68%) ;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+.f {
+  position: relative;
+  left: 993px;
+  bottom: 5000px;
+  background-color: hsl(158, 100%, 68%);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+.g {
+  position: relative;
+  left: 1193px;
+  bottom: 6000px;
+  background-color: hsl(117, 100%, 68%) ;
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+.h{
+  position: relative;
+  left: 1393px;
+  bottom: 7000px;
+  background-color: hsl(0, 100%, 68%);
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.000000000000000000000000000000001s; /* don't forget to set a duration! */
+}
+
+/***********************TEXT SECTION *************************/
+
+.textSection {
+  width: 1000px;
+  height: 300px;
+  position: relative;
+  z-index: +1;
+  bottom: 760px;
+  left: 310px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.text {
+  font-size: 80px;
+}
+
+/********************NAVBAR************************/
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 1800px;
+}
+
+li {
+  float: left;
+  overflow: hidden;
+  padding-left: 22px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover a {
+  color: black;
+}
